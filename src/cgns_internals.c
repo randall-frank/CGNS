@@ -42,12 +42,12 @@ freely, subject to the following restrictions:
 /***********************************************************************
  * global variable definitions
  ***********************************************************************/
-int Idim;           /* current IndexDimension          */
-int Cdim;           /* current CellDimension           */
-int Pdim;           /* current PhysicalDimension           */
-cgsize_t CurrentDim[9]; /* current vertex, cell & bnd zone size*/
-CGNS_ENUMT( ZoneType_t ) CurrentZoneType;     /* current zone type               */
-int NumberOfSteps;      /* Number of steps             */
+static int Idim;           /* current IndexDimension          */
+static int Cdim;           /* current CellDimension           */
+static int Pdim;           /* current PhysicalDimension           */
+static cgsize_t CurrentDim[9]; /* current vertex, cell & bnd zone size*/
+static CGNS_ENUMT( ZoneType_t ) CurrentZoneType;     /* current zone type               */
+static int NumberOfSteps;      /* Number of steps             */
 
 /*----- the goto stack -----*/
 
